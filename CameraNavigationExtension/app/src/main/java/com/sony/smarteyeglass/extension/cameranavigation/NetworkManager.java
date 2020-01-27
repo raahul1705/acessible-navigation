@@ -3,10 +3,6 @@ package com.sony.smarteyeglass.extension.cameranavigation;
 import android.content.Context;
 import android.net.DhcpInfo;
 import android.net.wifi.WifiManager;
-import android.util.Log;
-import org.zeromq.ZMQ;
-
-import java.util.ArrayList;
 
 // TODO: Deal will offline case
 

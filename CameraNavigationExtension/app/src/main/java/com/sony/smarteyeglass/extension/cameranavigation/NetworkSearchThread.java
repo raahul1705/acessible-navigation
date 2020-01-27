@@ -33,21 +33,13 @@ public class NetworkSearchThread extends Thread {
 
                     if (pingMachinePort(address, 9003, 10)) {
                         Log.e(Constants.NETWORK_MANAGER_TAG, "Found machine at " + address);
-//                        NetworkManager.connections.add(address.toString());
                     }
-
-//                    else if (!address.getHostAddress().equals(address.getHostName())) {
-//                        String msg = "Found inactive machine: " + address;
-//                        Log.e(Constants.NETWORK_MANAGER_TAG, msg);
-//                    }
                 }
             }
             catch (UnknownHostException e) {
                 Log.e(Constants.NETWORK_MANAGER_TAG, "Cannot find network host");
             }
         }
-
-//        NetworkManager.connections = connections;
     }
 
     private boolean pingMachinePort(InetAddress address, int port, int timeout) {
