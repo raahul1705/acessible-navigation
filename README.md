@@ -1,2 +1,2 @@
-# Sony-SmartEyeGlass-Navigation-App
+# Accesible Navigation
 Vanderbilt University undergraduate research project
